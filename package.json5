@@ -1,0 +1,22 @@
+{
+	"name": "browser-homepage",
+	"version": "0.0.2",
+	"repository": "https://github.com/phgroe/browser-homepage",
+	"author": "Philipp Gröschler <mail@plasma.cx>",
+	"license": "MIT",
+	"description": "Common browser start page as a Node.js service",
+	"dependencies": {
+		"babel-cli": "6.24.0",
+		"babel-preset-env": "1.2.2",
+		"json5": "0.5.1",
+	},
+	"babel": {
+		"presets": [
+			[ "env", {
+				"targets": {
+					"node": "current",
+				},
+			}],
+		],
+	},
+}

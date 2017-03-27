@@ -1,0 +1,9 @@
+#!/bin/sh
+
+S="./src"
+D="./dist"
+
+mkdir -p $D
+rm -rf $D/*
+
+node ./node_modules/babel-cli/bin/babel $S --out-dir $D

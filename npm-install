@@ -1,0 +1,12 @@
+#!/bin/sh
+
+J="node_modules/.bin/json5"
+
+if [ ! -f $J ]; then
+	npm install node5
+fi
+
+$J -c package.json5
+npm install
+#rm package.json
+
